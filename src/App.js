@@ -3,7 +3,7 @@ import LockIcon from "@mui/icons-material/Lock";
 import InputField from "./InputField";
 import React, { useState } from "react";
 
-const App = () => {
+function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [validEmail, setValidEmail] = useState(true);
@@ -113,6 +113,6 @@ const App = () => {
       </Box>
     </Container>
   );
-};
+}
 
-export default App;
+export default LoginPage;
