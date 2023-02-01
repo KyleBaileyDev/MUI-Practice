@@ -17,6 +17,9 @@ const InputField = ({
     onChange(data.get("email"));
   };
 
+  // Yes this is messy, I couldn't think of a nother way to differentiate between the Email and Password input boxes
+  // tempFix(true) == Email input, false == Password input
+  // Might be worth it to switch to if statement(s) for easier reading
   let answer = tempFix ? (
     validEmailInput ? (
       <TextField

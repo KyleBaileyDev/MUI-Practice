@@ -102,11 +102,11 @@ const App = () => {
           variant="body2"
           color="text.secondary"
           textAlign="center"
-          sx={{ pt: 14 }}
+          sx={{ pt: 12 }}
         >
           Copyright ©{" "}
           <Link color="text.secondary" href="#">
-            22CAD
+            22CAN
           </Link>{" "}
           {new Date().getFullYear()}.
         </Typography>
